@@ -6,7 +6,7 @@
 /*   By: msidqi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/14 12:48:35 by msidqi            #+#    #+#             */
-/*   Updated: 2019/10/11 12:07:18 by msidqi           ###   ########.fr       */
+/*   Updated: 2019/10/25 17:19:21 by msidqi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,10 +48,10 @@ int		main(int argc, char **argv)
 				"usage : \n./RTv1 config file", 2);
 		return (1);
 	}
-	if (!ft_window_setup(&data, "RocketTeam", HEIGHT, WIDTH)
+	if (!ft_window_setup(&data, "RT", HEIGHT, WIDTH)
 			|| !ft_image_setup(&data))
 		return (1);
-	ft_loadingscreen(data.mlx, data.win, "textures/loading3.xpm");
+	ft_loadingscreen(data.mlx, data.win, "textures/loading5.xpm");
 	data.filter = 0;
 	data.light_list = NULL;
 	data.scene = NULL;

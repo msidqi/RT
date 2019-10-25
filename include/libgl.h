@@ -6,7 +6,7 @@
 /*   By: msidqi <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/22 21:43:22 by msidqi            #+#    #+#             */
-/*   Updated: 2019/10/11 12:09:32 by msidqi           ###   ########.fr       */
+/*   Updated: 2019/10/25 18:28:52 by msidqi           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -49,7 +49,7 @@
 # define ASPECT_RATIO HEIGHT / WIDTH
 # define MAX_ITER 30
 # define PI 3.14159265358979323846
-# define JNUM 1
+# define JNUM 4
 # define N_THREADS 4
 
 typedef enum		e_event_code
