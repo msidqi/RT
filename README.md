@@ -11,7 +11,7 @@ New Features implemented :
 - Adaptive supersampling anti-aliasing (JNUM)
 - Reflections and Refractions w/ or w/o mixture of materials
 - Point light, Directional light
-
+- Composed objects from triangles (.obj files etc)
 
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/1.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/13.png">
