@@ -4,7 +4,8 @@
 make && ./RT scenes/yourconfigfile.cfg
 
 New Features implemented :
-- Procedural and image-based textures mapping
+- Procedural and image-based textures
+- Texture manipulation (strech, move, infinite)
 - Area lights, Soft shadows.
 - Depth of field
 - Lambertian reflectance
