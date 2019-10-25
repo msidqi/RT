@@ -1,0 +1,188 @@
+Config file :
+
+=>camera :
+{
+	position x y z
+	look_at x y z
+}
+
+=>light :
+{
+	intensity 1 1 1
+	position 1 -9 2
+	area_u   (optional_with_v) 1 0 0 5
+	area_v   (optional_with_u) 0 1 0 10
+	spot_dot (optional_2) -0.7
+	direction  (optional_3) 0 1 0
+}
+
+=>scene :
+{
+	filter value
+	depthoffield value
+	ambient r g b
+}
+
+=>sphere :
+{
+	radius value
+	center x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>plane :
+{
+	position x y z
+	normal x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+
+}
+
+=>cone :
+{
+	angle value
+	center x y z
+	normal x y z
+	color r g b
+	diffuse r g b
+	specular value
+	limited(optional) m x y z
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>cylinder :
+{
+	radius value
+	center x y z
+	normal x y z
+	color r g b
+	diffuse r g b
+	specular value
+	limited(optional) m x y z
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>box :
+{
+	bmax x y z
+	bmin x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose	 
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>disc :
+{
+	radius value
+	position x y z
+	normal x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>hemisphere :
+{
+	radius value
+	center x y z
+	normal x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>torus :
+{
+	big_radius value
+	small_radius value
+	center x y z
+	axis x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>hcube :
+{
+	radius value
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>parab :
+{
+	kernel value
+	center x y z
+	normal x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>hyper :
+{
+	kernel value
+	center x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+}
+
+=>ellipsoid :
+{
+	center x y z
+	axis x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+	texture(optional) id stretch.x stretch.y stretch.z
+	transfo(optional) 1 0 0 0 | 0 1 0 0 | 0 0 1 0 | 0 0 0 1 
+}
+
+=>triangle :
+{
+	vertex0 x y z
+	vertex1 x y z
+	vertex2 x y z
+	vertex3 x y z
+	color r g b
+	diffuse r g b
+	specular value
+	ref(optional) r g b type n shading_verbose 
+}
+
