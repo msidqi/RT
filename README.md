@@ -8,7 +8,7 @@ New Features implemented :
 - Area lights, Soft shadows.
 - Depth of field
 - Lambertian reflectance
-- Adaptive supersampling anti-aliasing
+- Adaptive supersampling anti-aliasing (change #define JNUM for different results)
 - Reflections and Refractions w/ or w/o mixture of materials
 - Point light, Directional light
 
