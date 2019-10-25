@@ -3,9 +3,14 @@
 
 make && ./RT scenes/yourconfigfile.cfg
 
-Features implemented :
-
-
+New Features implemented :
+- Procedural and image-based textures mapping
+- Area lights, Soft shadows.
+- Depth of field
+- Lambertian reflectance
+- Adaptive supersampling anti-aliasing
+- Reflections and Refractions w/ or w/o mixture of materials
+- Point light, Directional light
 
 
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/1.png">
