@@ -13,7 +13,8 @@ New Features implemented :
 - Reflections and Refractions w/ or w/o mixture of materials
 - Point light, Directional light
 - Composed objects from triangles (.obj files etc)
-
+Article I wrote about Ray Tracing on medium :
+- https://medium.com/@mouadsidqi/ray-tracing-in-c-explained-524e59abb329
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/1.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/13.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/10.png">
