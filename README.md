@@ -9,6 +9,7 @@ Features implemented :
 
 
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/1.png">
+<img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/13.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/10.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/9.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/2.png">
@@ -20,4 +21,4 @@ Features implemented :
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/8.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/11.png">
 <img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/12.png">
-<img src="https://github.com/msidqi/RayTracer-in-C-2.0/blob/master/img_README/13.png">
+
